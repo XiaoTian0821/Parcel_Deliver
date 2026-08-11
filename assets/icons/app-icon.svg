@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="Parcel Delivery System">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b5ed7"/>
+      <stop offset="100%" stop-color="#4cc9f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="40" fill="url(#bg)"/>
+  <rect x="44" y="56" width="104" height="80" rx="18" fill="#ffffff" opacity="0.96"/>
+  <path d="M54 80h84" stroke="#0b5ed7" stroke-width="12" stroke-linecap="round"/>
+  <path d="M96 64l38 22v44L96 152l-38-22V86l38-22z" fill="none" stroke="#0b5ed7" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M96 64v88" stroke="#0b5ed7" stroke-width="10" stroke-linecap="round"/>
+</svg>

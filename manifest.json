@@ -1,0 +1,16 @@
+{
+  "name": "Parcel Delivery System",
+  "short_name": "Parcel App",
+  "description": "包裹寄送与追踪系统",
+  "start_url": "index.php",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "icons": [
+    {
+      "src": "assets/icons/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
