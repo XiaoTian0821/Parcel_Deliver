@@ -24,6 +24,7 @@ if ($page === 'logout') {
 
 $routes = [
     'login' => __DIR__ . '/pages/login.php',
+    'register' => __DIR__ . '/pages/register.php',
     'admin-dashboard' => __DIR__ . '/pages/admin/dashboard.php',
     'admin-riders' => __DIR__ . '/pages/admin/riders.php',
     'admin-parcels' => __DIR__ . '/pages/admin/parcels.php',
@@ -37,7 +38,7 @@ $routes = [
     'install' => __DIR__ . '/install.php',
 ];
 
-if ($page !== 'login' && $page !== 'install') {
+if ($page !== 'login' && $page !== 'install' && $page !== 'register') {
     require_login();
 }
 

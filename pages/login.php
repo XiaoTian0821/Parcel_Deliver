@@ -39,11 +39,13 @@ require __DIR__ . '/../includes/auth-header.php';
     <div class="auth-copy">
         <p class="eyebrow">Courier operations</p>
         <h1>Sign in to Parcel Delivery.</h1>
-        <p>Use your admin or rider account to manage deliveries, track locations, and update parcel status in real time.</p>
-        <!-- 使用直接链接路径，防止 base_url 拼错 -->
+        <p>Use your account to manage deliveries, track locations, and update parcel status in real time.</p>
+        
+        <!-- 修改这里：换成注册页面的跳转链接 -->
         <p style="margin-top: 15px;">
-            <a class="text-link" href="index.php?page=install" style="position: relative; z-index: 10; cursor: pointer;">
-                Create the first admin account
+            Don't have an account? 
+            <a class="text-link" href="index.php?page=register" style="position: relative; z-index: 10; cursor: pointer; font-weight: bold;">
+                Create an Account / Register
             </a>
         </p>
     </div>
