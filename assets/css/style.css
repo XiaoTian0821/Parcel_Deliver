@@ -536,3 +536,42 @@ textarea {
         align-items: stretch;
     }
 }
+
+/* 地址自动补全下拉框样式 */
+.autocomplete-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  max-height: 220px;
+  overflow-y: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  display: none;
+}
+
+.autocomplete-suggestion-item {
+  padding: 10px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  border-bottom: 1px solid #f2f2f2;
+  line-height: 1.4;
+  color: #333;
+}
+
+.autocomplete-suggestion-item:last-child {
+  border-bottom: none;
+}
+
+.autocomplete-suggestion-item:hover {
+  background-color: #f0f7ff;
+  color: #007bff;
+}
+
+.autocomplete-suggestion-item strong {
+  color: #111;
+}
