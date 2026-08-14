@@ -13,7 +13,7 @@
             <a href="<?= escape(base_url('index.php?page=admin-riders')) ?>">Riders</a>
             <a href="<?= escape(base_url('index.php?page=admin-parcels')) ?>">Parcels</a>
             <a href="<?= escape(base_url('index.php?page=admin-tracking')) ?>">Tracking</a>
-            <a href="https://freeroute.org/#pricing" target="_blank" rel="noopener">Route Pricing</a>
+            <a href="https://freeroute.org/#pricing" target="_blank" rel="noopener">Route Tracking</a>
             <a href="<?= escape(base_url('index.php?page=admin-reports')) ?>">Reports</a>
             <a href="<?= escape(base_url('index.php?page=admin-profile')) ?>">Profile</a>
         <?php else: ?>
