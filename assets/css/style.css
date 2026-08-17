@@ -694,3 +694,9 @@ textarea {
   color: #6b7280;
   font-size: 11px;
 }
+
+/* 强制修复 Select 下拉框选项文字不显色/透明的问题 */
+.form-select option {
+    background-color: #212529 !important; /* 深灰色背景 */
+    color: #ffffff !important;           /* 纯白文字 */
+}
